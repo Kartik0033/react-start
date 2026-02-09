@@ -2,7 +2,6 @@ import { Link } from 'react-router';
 import './header.css';
 
 export function Header({ cart }) {
-
   let totalQuantity = 0;
 
   cart.forEach((cartItem) => {
@@ -41,5 +40,5 @@ export function Header({ cart }) {
         </Link>
       </div>
     </div>
-  )
+  );
 }
